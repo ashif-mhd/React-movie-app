@@ -1,0 +1,34 @@
+.moviecontainer{
+ display: flex;
+ flex-direction: column;
+ padding: 10px;
+ width: 280px;
+ box-shadow: 0 3px 10px #363636;
+ cursor: pointer;
+ background-color: rgb(255, 255, 255);
+ margin: 20px;
+}
+.coverimage{
+    height: 362px;
+}
+.moviename{
+font-size: 18px;
+font-weight: 600;
+color: black;
+margin: 15px 0;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+}
+.infocolumn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.movieinfo{
+    font-size: 16px;
+font-weight: 500;
+color: black;
+text-transform: capitalize;
+justify-content: space-between;
+}
